@@ -20,7 +20,6 @@ public class JSONGetResponse {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                String info;
                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                         new Response.Listener<String>() {
                             @Override
