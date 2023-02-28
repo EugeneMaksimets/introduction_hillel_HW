@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
                                     int position, long id) {
                 TextView textView = (TextView) view.findViewById(R.id.info);
                 String text = textView.getText().toString();
-//                InterestingFact.setTextForHistory(text);
                 startSecondActivity(false, true, 0, text);
             }
         });
